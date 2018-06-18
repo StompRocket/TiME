@@ -1,0 +1,42 @@
+@import './varibles.scss';
+.home >.nav {
+  background: $darkBG;
+  height: 12%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 2%;
+  padding-left: 2%;
+ i {
+    margin-left: auto;
+}
+  .logo {
+      height: 100%;
+      width: auto;
+  }
+}
+.home >.itemContainer {
+    
+    height: 66%;
+    padding-left: 2%;
+    padding-right: 2%;
+   .item {
+       font-size: 12pt;
+       background-color: $darkBG;
+       border-radius: 5px;
+       padding: 2%;
+       max-width: 86%;
+       overflow: hidden;
+       p {
+        white-space: nowrap;
+
+       }
+   }
+  }
+  
+.hom >.bottomNav {
+    background: $darkBG;
+    height: 22%;
+   
+  }
+  

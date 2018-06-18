@@ -1,10 +1,10 @@
-# time
+# TiME
 
 > An opinionated open source time tracker app
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
