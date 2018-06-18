@@ -6,10 +6,16 @@
    </nav>
    <div class="itemContainer">
        <div class="item">
-       
+       <p>1:15 --> 2:15 Ate lunch with clients</p>
        </div>
    </div>
-   <div class="bottomNav"></div>
+   <div class="bottomNav">
+     <div class="search"><p>SEARCH</p></div>
+     <div class="buttonRow">
+       <router-link to="/edit" class="primaryBG btn">NEW</router-link>
+       <button class="ctaBG btn">EXPORT</button>
+     </div>
+   </div>
   </div>
 </template>
 
